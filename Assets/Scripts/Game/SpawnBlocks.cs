@@ -9,6 +9,8 @@ public class SpawnBlocks : MonoBehaviour
     private Vector3 blockPos;
     private const float _speed = 7f;
 
+    // test
+
     // Use this for initialization
     private void Start ()
 	{
