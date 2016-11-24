@@ -7,13 +7,13 @@ public class StarAnimation : MonoBehaviour {
     private const float _movementSpeed = 0.1f;
 
     // Use this for initialization
-    void Start () {
+    private void Start () {
         star = GetComponent<SpriteRenderer>();
         Destroy(gameObject, 4.9f);
     }
 	
 	// Update is called once per frame
-	void Update () {
+    private void Update () {
         star.color = new Color(star.color.r, 
             star.color.g, star.color.b, Mathf.PingPong(Time.time/2.5f, 1.0f));
         // move star

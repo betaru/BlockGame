@@ -6,7 +6,7 @@ public class ScrollObjects : MonoBehaviour {
     public float checkPos = 0;
     private RectTransform rec;
 
-    void Start()
+    private void Start()
     {
         rec = GetComponent<RectTransform>();
     }

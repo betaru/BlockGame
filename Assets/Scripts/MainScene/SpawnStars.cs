@@ -11,7 +11,7 @@ public class SpawnStars : MonoBehaviour {
 	    StartCoroutine(Spawn());
 	}
 
-    IEnumerator Spawn ()
+    private IEnumerator Spawn ()
     {
         while (true)
         {

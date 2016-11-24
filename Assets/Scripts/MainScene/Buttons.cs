@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class Buttons : MonoBehaviour {
-    void OnMouseUp()
+    private void OnMouseUp()
     {
         transform.localScale = new Vector3(1f, 1f, 1f);
     }
 
-    void OnMouseDown()
+    private void OnMouseDown()
     {
         transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
     }
